@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Sixtyfour&display=swap');
+      </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1 class="calculadoraTexto">Calculadora</h1>
+        </header>
+        <div class="cajaCalculadora">
+            <ul>
+                <h1 id='pantallaCalculadora'></h1>
+            </ul>
+        </div>
+            <div class="botonesEspacioArriba">
+                <main>
+                    <button onclick="siete();" class="button">7</button>
+                    <button onclick="ocho();" class="button">8</button>
+                    <button onclick="nueve();" class="button">9</button>
+                    <button onclick="borrar();" class="button">Borrar</button>
+                </main>
+                
+
+                <main>
+                    <button onclick="cuatro();" class="button">4</button>
+                    <button onclick="cinco();" class="button">5</button>
+                    <button onclick="seis();" class="button">6</button>
+                    <button onclick="menos();" class="button">-</button>
+                    <button onclick="dividir();" class="button">/</button>
+                </main>
+
+                <main>
+                    <button onclick="uno();" class="button">1</button>
+                    <button onclick="dos();" class="button">2</button>
+                    <button onclick="tres();" class="button">3</button>
+                    <button onclick="suma();" class="button">+</button>
+                    <button onclick="multiplicar();" class="button">x</button>
+                </main>
+
+                <main>
+                    <button onclick="elevar();" class="button">^</button>
+                    <button onclick="cero();" class="button">0</button>
+                    <button onclick="abrir();" class="button">(</button>
+                    <button onclick="cerrar();" class="button">)</button>
+                    <button onclick="enter();" class="button">=</button>
+                </main>
+        </div>
+    </div>
+
+
+      <script src="app.js"></script>
+</body>
+</html>
